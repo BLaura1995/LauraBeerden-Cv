@@ -1,3 +1,21 @@
         @media screen and (max-width: 600px) {
-           
+           .section , .d-grid{
+                   display: block;
+           }
+           .section .logo{
+                   width:20%;
+                   height: auto;
+                   margin: 0 auto;
+
+           }
+          
+           .section .intro{
+                   text-align:center;
+           }
+        }
+        .d-grid .opsom {
+                border:none;
+        }
+        .d-grid .opsom .titel{
+                padding: 10px;
         }
