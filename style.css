@@ -98,32 +98,33 @@
     font-size: 1.5rem;
   }
   
-  .minilogo {
-    width: 5%;
-    height: 5%;
+  .kop .minilogo {
+ width: 5%;
+ height:auto;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 50px;
   }
   
-  .section2 {
-  
-   
-    margin: 0 auto;
+  .d-grid {
+   margin: 0 auto;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 2fr 3fr;
         grid-template-columns: 2fr 3fr;
     grid-gap: 2rem;
-    padding-bottom: 10px;
+   
   }
-  
-  .section2 .foto {
-    background-image: url("img/LauraAangepast.png");
-    background-size: cover;
-    background-position: center center;
-  }
-  
-  .section2 h1 {
+  .d-grid .titel{
+    text-align:center;
+    font-size:2rem;
     text-decoration: underline;
   }
+  
+  .d-grid .opsom{
+    text-align:center;
+    margin-top: 30px;
+  }
+  
+  
+  
   /*# sourceMappingURL=style.css.map */
