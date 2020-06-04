@@ -14,8 +14,8 @@
            }
         }
         .d-grid .opsom {
-                border:none;
+                border:0px;
         }
-        .d-grid .opsom .titel{
+        .d-grid .titel{
                 padding: 10px;
         }
