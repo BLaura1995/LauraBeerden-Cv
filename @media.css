@@ -2,6 +2,18 @@
            .container .section {
                    display: block;
            }
+           .container .d-grid{
+                display: block;
+           }
+           .container .d-grid img{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+           } .container .d-grid .contact{
+                width:100%;
+                text-align:center;
+        }
            .container .section #logo{
                 display: block;
                 margin-left: auto;
