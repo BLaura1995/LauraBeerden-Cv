@@ -66,11 +66,34 @@ body {
 }
 
 .accordion-container .set a {
-  font-family: "Noto Sans JP", sans-serif;
-  text-transform: uppercase;
   text-decoration: none;
   color: black;
   text-align: center;
-  background: red;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 1,5rem;
+}
+
+.accordion-container .set .content {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background: red;
+  }
+  .container {
+    background: green;
+  }
+  .section {
+    background: yellow;
+    display: block;
+  }
+  s
+#logo {
+    background: blue;
+  }
 }
 /*# sourceMappingURL=style2.css.map */

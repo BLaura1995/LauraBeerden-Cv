@@ -2,10 +2,11 @@
            .section , .d-grid{
                    display: block;
            }
-           .section .logo{
-                   width:20%;
+           .section #logo{
+                   width:5%;
                    height: auto;
                    margin: 0 auto;
+                  
 
            }
           

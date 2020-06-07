@@ -34,7 +34,10 @@
     -webkit-box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
             box-shadow: 20px 20px 50px 15px rgba(31, 57, 106, 0.4);
   .section {
-      @include d-grid;
+    display:grid;
+    -ms-grid-columns: minmax(150px, 1fr) minmax(250px, 3fr);
+    grid-template-columns: minmax(150px, 1fr) minmax(250px, 3fr);
+  grid-gap: 10vw;
       background-color: #f2f2f2;
       padding:5vw;
       margin: 0 auto;
@@ -71,12 +74,38 @@
         margin: 1rem;
        
          a{
-             font-family: "Noto Sans JP", sans-serif;
-            text-transform: uppercase; text-decoration: none;   
+        text-decoration: none;
         color:black;
         text-align:center;
-        background:red;
+        
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        text-transform: uppercase;
+        font-size: 1,5rem;
      } 
+     .content{
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+     }
         }
        
   }
+
+
+
+
+  @media screen and (max-width: 600px) {
+    body{
+            background: red;
+    } 
+  .container{
+          background:green;
+  }
+  .section{
+          background:yellow;
+          display: block;
+  }s
+  #logo{
+          background:blue;
+  }
+}
