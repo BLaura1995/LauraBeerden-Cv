@@ -1,22 +1,21 @@
         @media screen and (max-width: 600px) {
-           .section , .d-grid{
+           .section {
                    display: block;
            }
-           .section #logo{
-                   width:5%;
-                   height: auto;
+           .section .logo{
+                   width:100%;
+                   
+                   text-align: center;
                    margin: 0 auto;
                   
 
+           }
+           .section .intro{
+                   width:100%;
            }
           
            .section .intro{
                    text-align:center;
            }
         }
-        .d-grid .opsom {
-                border:0px;
-        }
-        .d-grid .titel{
-                padding: 10px;
-        }
+      
