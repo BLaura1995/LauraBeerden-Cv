@@ -1,12 +1,12 @@
         @media screen and (max-width: 600px) {
-           .section {
+           .container .section {
                    display: block;
            }
-           .section .logo{
-                   width:100%;
-                   
-                   text-align: center;
-                   margin: 0 auto;
+           .container .section #logo{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 20%;
                   
 
            }
